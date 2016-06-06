@@ -85,11 +85,6 @@ mariadb_default_config:
     config:
       - key_buffer = 16M
 
-# Databases
-# mariadb_databases:
-#   - { name: example, collation: utf8_general_ci, encoding: utf8, replicate: 1 }
-mariadb_databases: []
-
 # Users
 # mariadb_users:
 #   - { name: example, host: 127.0.0.1, password: secret, priv: *.*:USAGE }
