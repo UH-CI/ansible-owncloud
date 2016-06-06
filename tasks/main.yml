@@ -1,9 +1,9 @@
 ---
 
-- include: install.yml
+- include: install_mariadb.yml
   tags: [mariadb]
-- include: configure.yml
+- include: configure_mariadb.yml
   tags: [mariadb]
-- include: users.yml
+- include: create_mariadb_users.yml
   tags: [mariadb]
 
