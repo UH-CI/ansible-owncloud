@@ -1,0 +1,1 @@
+This playbook install owncloud and it's dependencies for Centos 7
